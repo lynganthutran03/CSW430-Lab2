@@ -1,0 +1,11 @@
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+
+node_modules/
+npm-debug.log
+
+.DS_Store
+Thumbs.db
