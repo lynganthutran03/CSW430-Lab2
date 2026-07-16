@@ -6,11 +6,9 @@ const App = () => {
   const [income, setIncome] = useState('');
   const [tax, setTax] = useState('');
 
-  // Income tax calculation function
   const calculateTax = () => {
     const incomeAmount = parseFloat(income);
 
-    // Bắt lỗi nếu nhập không phải số hoặc số âm
     if (isNaN(incomeAmount) || incomeAmount < 0) {
       setTax('Invalid income');
       return;
